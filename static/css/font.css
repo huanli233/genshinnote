@@ -1,0 +1,11 @@
+@font-face{
+	font-family: "Hanyi85W";
+	src: url('../font/汉仪文黑-85W.ttf');
+}
+.Box1-title1 {
+    font-family: 'Hanyi85W';
+}
+.Box1-title2 {
+	font-family: 'Hanyi85W';
+}
+
