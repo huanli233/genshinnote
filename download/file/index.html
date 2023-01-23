@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>下载主页 - GenshinNote丨huanli233</title>
+		<title>直链下载 - GenshinNote丨huanli233</title>
 		<meta name="keywords" content="原神,原神工具,原神记录,GenshinNote">
 		<!-- 新 Bootstrap5 核心 CSS 文件 -->
 		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
@@ -13,10 +13,10 @@
 	</head>
 	<body>
 		<div class="container">
-		<header class="d-flex flex-wrap justify-content-center py-4 mb-5 border-bottom">
-			<a href="https://huanli233.github.io/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none navbar-brand">
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+			<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 				<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-				<span class="fs-4 text-danger">GenshinNote - 下载</span>
+				<span class="fs-4">GenshinNote - 下载 - 直链</span>
 			 </a>
 			<ul class="nav nav-pills">
 			<li class="nav-item">
@@ -26,10 +26,10 @@
 			  <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown">下载</a>
 			  <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow">
 				<li><h5 class="dropdown-header">导航</h5></li>
-				<li><a class="dropdown-item active" href="#">下载导航页</a></li>
+				<li><a class="dropdown-item" href="../index.html">下载导航页</a></li>
 				<li><hr class="dropdown-divider"></hr></li>
-				<li><a class="dropdown-item" href="./file/index.html">直链</a></li>
-				<!-- li><a class="dropdown-item" href="./lanzou/index.html">蓝奏云</a></li -->
+				<li><a class="dropdown-item" href="../file/index.html">直链</a></li>
+				<!-- li><a class="dropdown-item active" href="#">蓝奏云</a></li -->
 				<li><h5 class="dropdown-header">不推荐的</h5></li>
 				<li><a class="dropdown-item" href="#">Github下载</a></li>
 			  </ul>
@@ -37,65 +37,29 @@
 			<li class="nav-item">
 			  <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">其他</a>
 			</li>
-			</ul>
+				</ul>
 		</header>
 		</div>
-		<div class="container mb-5">
-			<div class="card">
-				<div class="card-header">
-					<h3 class="text-primary">GenshinNoteSwing</h3>
-				</div>
-				<div class="card-body">
-					<div class="container p-3 my-2 bg-light text-black">
-						<h4>    使用javax.swing开发的应用。界面为系统（Win）风格，具体样式视系统版本而定。</h4>
-						<h5 class="text-warning">    *测试使用Windows 11 Insider Preview Build 25131.</h5>
-					</div>
-					<a class="btn btn-info card-link text-white" href="./file/index.html">推荐的直链下载</button>
-					<a href="#lastest" class="btn btn-secondary card-link">想要通过其它方式下载？</a>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header">
-					<h3 class="text-primary" style="text-decoration:line-through;">GenshinNoteJavaFX</h3>
-				</div>
-				<div class="card-body">
-					<div class="container p-3 my-2 bg-light text-black">
-						<h4>    使用JavaFX重开发的应用。界面更加美观。</h4>
-						<h4 class="text text-danger">注意：此版本至少要在GenshinNoteSwing正式版发布后才发布。</h4>
-					</div>
-					<a class="btn btn-info card-link text-white" data-bs-toggle="modal" data-bs-target="#myModal">下载</a>
-				</div>
-			</div>
-		</div>
-		<div class="container">
+				<div class="container">
 			<div class="mb-auto pb-auto card bg-secondary rounded">
-				<h2 class="text-white card-header">最新版本 - GenshinNoteSwing</h2>
-				<h4 class="text-white">注：有的下载方式可能并不是总体的最新版本，请留意表格。</h3>
+				<h2 class="text-white card-header">直链下载 - GenshinNoteSwing</h2>
 			</div>
 			<a name="lastest"></a>
 			<table class="table table-striped table-bordered table-hover table-responsive">
 				<thead>
 					<tr>
-						<th>下载方式</th>
-						<th>最新版本号</th>
+						<th>文件名</th>
+						<th>版本号</th>
+						<th>注</th>
 						<th>下载链接</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>直链</td>
+						<td>GenshinNote_0.5.1.zip</td>
 						<td>0.5.1</td>
+						<td>由于包内带jdk内存占用过大，下个版本起将会发出不带jdk的zip。</td>
 						<td><a href="http://xhrwp.niutou.fun:2022/down.php/da18ed93facd2a3831e6a1cd542cac51.zip" download="GenshinNote_0.5.1.zip" class="btn btn-info">下载</a>
-					</tr>
-					<!-- tr>
-						<td>百度云</td>
-						<td>0.5.1</td>
-						<td><a href="#" class="btn btn-info">下载</a>
-					</tr -->
-					<tr>
-						<td>Github</td>
-						<td>0.5</td>
-						<td><a href="#" class="btn btn-info">下载</a>
 					</tr>
 				</tbody>
 			</table>
